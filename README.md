@@ -34,12 +34,13 @@ Parte real con parte real y parte imaginaria con parte imaginaria:
 
 $$\[
 \begin{cases}
-  16C = 20 \\
+  -16C = 20 \\
   16C+8D = 10
 \end{cases}
 \]$$
 
-$$ C = \frac{-5}{4}$$
+$$ C = \frac{20}{-16}$$
+$$ C = -\frac{5}{4}$$
 
 $$ 16*\frac{-5}{4}+8D = 10 $$
 $$ 8D = 10+20 $$
