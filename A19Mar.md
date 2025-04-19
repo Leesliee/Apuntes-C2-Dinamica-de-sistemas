@@ -5,7 +5,10 @@ En la sesión del 19 de marzo, se desarrolló la retroalimentación del primer p
 ## 2. Retroalimentación: Tema 1
 ### 📚 Ejercicio 1
 Hallar la solución a la ecuación diferencial:
-$$\ddot{x} + 4x = 5$$
+
+$$\ddot{x} + 4x = 5$$    
+$$x(0) = 5  $$
+$$\dot{x}(0) = 0$$
 ### 📚 Ejercicio 2
 Determinar la función en el dominio del tiempo de F(s):
 
