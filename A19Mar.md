@@ -9,14 +9,16 @@ Hallar la solución a la ecuación diferencial:
 $$\ddot{x} + 4x = 5$$    
 $$x(0) = 5  $$
 $$\dot{x}(0) = 0$$
+
+$$s^2X(S)-5s+4X(S) = \fraq{5}{s}$$
 ### 📚 Ejercicio 2
 Determinar la función en el dominio del tiempo de F(s):
 
 $$F(s) = \frac{5*(s+2)}{s^2(s^2-4s+8)}$$
 
-$$F(s) = \frac{5s+10}{s^2(s^2-4s+8)} = \frac{A}{(s)}+\frac{B}{s^2}+\frac{Cs+D}{s^2-4s+8}$$
+$$F(s) = \frac{5s+10}{s^2(s^2-4s+8)} = \frac{A}{s}+\frac{B}{s^2}+\frac{Cs+D}{s^2-4s+8}$$
 
-$$\frac{(s^2)(s^2 -4s + 8)*(5s+10)}{s^2(s^2-4s+8)} = \frac{(s^2)(s^2 + 2s + 8)A}{(s)}+\frac{(s^2)(s^2 + 2s + 8)B}{(s^2)}+\frac{(s^2)(s^2 + 2s + 8)(Cs+D)}{(s^2-4s+8)}$$
+$$\frac{(s^2)(s^2 -4s + 8)*(5s+10)}{s^2(s^2-4s+8)} = \frac{(s^2)(s^2 + 2s + 8)A}{s}+\frac{(s^2)(s^2 + 2s + 8)B}{(s^2)}+\frac{(s^2)(s^2 + 2s + 8)(Cs+D)}{(s^2-4s+8)}$$
 
 $$5s+10 = (s)(s^2 -4s + 8)A + (s^2 + 2s + 8)B +(s^2)(Cs+D)$$
 
