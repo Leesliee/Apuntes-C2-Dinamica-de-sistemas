@@ -42,10 +42,10 @@ $$\[
 $$ C = \frac{20}{-16}$$
 $$ C = -\frac{5}{4}$$
 
-$$ 16*\frac{-5}{4}+8D = 10 $$
+$$ 16*-\frac{5}{4}+8D = 10 $$
 $$ 8D = 10+20 $$
 $$ D = \frac{30}{8} $$
-$$ D = \frac{15}{5} $$
+$$ D = \frac{15}{4} $$
 
 Sabiendo los valores de B, C y D; al evaluar s=1:
 
