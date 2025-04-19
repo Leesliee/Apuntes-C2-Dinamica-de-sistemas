@@ -10,7 +10,26 @@ $$\ddot{x} + 4x = 5$$
 $$x(0) = 5  $$
 $$\dot{x}(0) = 0$$
 
-$$s^2X(S)-5s+4X(S) = \fraq{5}{s}$$
+$$s^2X(S)-5s+4X(S) = \frac{5}{s}$$
+$$X(S)[s^2+4] =\frac{5}{s} +5s $$
+$$X(S) =\frac{5\s+5s}{s^2+4} $$
+$$X(S) =\frac{5+5s}{s(s^2+4)} $$
+$$X(S) =\frac{5+5s}{s(s^2+4)}= \frac{A}{s}+\frac{Bs+D}{s^2+4}$$
+$$X(S) =5+5s^2= (s^2+4)A + s(Bs+D)$$
+
+Al evaluar s = 0:
+
+$$5+5(0)^2=((0)^+4)A+ 0(Bs+D)$$
+$$5=4A+0$$
+$$A=\frac{5}{4}
+
+Al evaluar s = 2i:
+
+$$5+5(2i)^2=((2i)^+4)A+ (2i)^2B +2i(Bs+D)$$
+$$5=4A+0$$
+$$A=\frac{5}{4}
+
+
 ### 📚 Ejercicio 2
 Determinar la función en el dominio del tiempo de F(s):
 
