@@ -4,7 +4,8 @@
 En la sesión del 19 de marzo, se desarrolló la retroalimentación del primer parcial de la asignatura. Habían dos temas según la terminación del documento de identidad de cada estudiante, si el último número de la identificación del estudiante era impar se debía desarrollar el tema 1; si por el contrario el último número de la identificación era par, se debía desarrollar el tema 2. En este caso, se desarrollára la corrección del tema 1; pues el parcial se realizó con el número de documento: 1025523271.
 ## 2. Retroalimentación: Tema 1
 ### 📚 Ejercicio 1
-
+Hallar la solución a la ecuación diferencial:
+$$\ddot{x} + 4x = 5$$
 ### 📚 Ejercicio 2
 Determinar la función en el dominio del tiempo de F(s):
 
