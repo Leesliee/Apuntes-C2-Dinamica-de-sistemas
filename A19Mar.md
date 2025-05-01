@@ -46,7 +46,10 @@ Reemplazando:
 
 $$X(S) = \frac{\frac{5}{4}}{s}+\frac{\frac{15}{4}s}{s^2+4}$$
 
-$$\mathcal{L}^{-1} \left\{ \frac{5}{4s} + \frac{15}{4} \cdot \frac{s}{s^2 + 4} \right\} = \frac{5}{4} + \frac{15}{4} \cos(2t)$$
+$$
+\mathcal{L}^{-1} \left\{ \frac{5}{4s} + \frac{15}{4} \cdot \frac{s}{s^2 + 4} \right\} = \frac{5}{4} + \frac{15}{4} \cos(2t)
+$$
+
 
 ### 📚 Ejercicio 2
 Determinar la función en el dominio del tiempo de F(s):
