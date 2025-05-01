@@ -26,9 +26,16 @@ $$A=\frac{5}{4}$$
 Al evaluar s = 2i:
 
 $$5+5(2i)^2=((2i)^2+4)A+ (2i)^2B+2iD$$
-$$25=0A+0$$
-$$A=\frac{5}{4}$$
+$$-15=0A+16B+2iD$$
 
+Se genera un sistema de ecuaciones con parte real y parte imaginaria:
+
+$$
+\begin{cases}
+16B = 15 \\
+2iD = 0 \\
+\end{cases}
+$$
 
 ### 📚 Ejercicio 2
 Determinar la función en el dominio del tiempo de F(s):
