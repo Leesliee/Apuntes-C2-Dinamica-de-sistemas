@@ -1,7 +1,7 @@
 # Corrección de parcial, corte 1
-
+### Alexander Ávila Rojas, Leslie Stephania Rodriguez Marín
 ## 1. Introducción
-En la sesión del 19 de marzo, se desarrolló la retroalimentación del primer parcial de la asignatura. Habían dos temas según la terminación del documento de identidad de cada estudiante, si el último número de la identificación del estudiante era impar se debía desarrollar el tema 1; si por el contrario el último número de la identificación era par, se debía desarrollar el tema 2. En este caso, se desarrollará la corrección del tema 1; pues el parcial se realizó con el número de documento: 1025523271.
+En la sesión del 19 de marzo, se desarrolló la retroalimentación del primer parcial de la asignatura. Habían dos temas según la terminación del documento de identidad de cada estudiante, si el último número de la identificación del estudiante era impar se debía desarrollar el tema 1; si por el contrario el último número de la identificación era par, se debía desarrollar el tema 2. En este caso, se desarrollará la retroalimentación de los dos temas.
 ## 2. Retroalimentación: Tema 1
 ### 📚 Ejercicio 1
 Hallar la solución a la ecuación diferencial:
@@ -92,7 +92,8 @@ $$\mathcal{L}^{-1} \{ F(s) \} = 1 + 2t -\frac{1}{2}*cos(2t)-\frac{1}{2}*sen(2t)$
 Y por último se encuentra la solución en el dominio del tiempo: 
 
 $$f(t) =  1 + 2t -\frac{1}{2}*cos(2t)-\frac{1}{2}*sen(2t)$$
+## 2. Retroalimentación: Tema 2
 ## 4. Conclusiones
-En esta sesión, se evidenció que resolver un ejercicio extenso que involucre uno o varios casos 
+En esta sesión 
 ## 5. Referencias
-Jorge Eduardo Cote Ballesteros (2024). Soluciones de ecuaciones diferenciales; dinámica de sistemas. ETITC
+
