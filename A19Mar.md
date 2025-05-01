@@ -42,9 +42,15 @@ $$D=0$$
 $$B=\frac{-15}{-4}$$
 $$B=\frac{15}{4}$$
 
+Reemplazando:
+
+$$X(S) = \frac{\frac{5}{4}}{s}+\frac{\frac{15}{4}s}{s^2+4}$$
+
+
+
 ### 📚 Ejercicio 2
 Determinar la función en el dominio del tiempo de F(s):
-
+t
 $$F(s) = \frac{5*(s+2)}{s^2(s^2-4s+8)}$$
 
 $$F(s) = \frac{5s+10}{s^2(s^2-4s+8)} = \frac{A}{s}+\frac{B}{s^2}+\frac{Cs+D}{s^2-4s+8}$$
