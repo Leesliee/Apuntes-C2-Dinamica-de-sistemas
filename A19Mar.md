@@ -47,8 +47,9 @@ Reemplazando:
 $$X(S) = \frac{\frac{5}{4}}{s}+\frac{\frac{15}{4}s}{s^2+4}$$
 
 $$
-\mathcal{L}^{-1} \{ \frac{5}{4s} + \frac{15}{4} \cdot \frac{s}{s^2 + 4} \} = \frac{5}{4} + \frac{15}{4} \cos(2t)
+\frac{5}{4}*\mathcal{L}^{-1}\{ \frac{1}{s}\}\frac{15}{4} *\mathcal{L}^{-1}\{ \cdot \frac{s}{s^2 + 4} \} 
 $$
+$$ \frac{5}{4} + \frac{15}{4} \cos(2t)$$
 
 
 
