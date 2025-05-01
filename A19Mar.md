@@ -21,7 +21,7 @@ Al evaluar s = 0:
 
 $$5+5(0)^2=((0)^+4)A+ 0(Bs+D)$$
 $$5=4A+0$$
-$$A=\frac{5}{4}
+$$A=\frac{5}{4}$$
 
 Al evaluar s = 2i:
 
