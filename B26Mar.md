@@ -45,11 +45,24 @@ $\dot{x}$= Velocidad relativa
 #### Fuerza externa F(t):
 >🔑Es cualquier fuerza que se apliquye desde el exterior, como una fuerza constante o periodica. 
 
-### 1.3 Ecuacion del movimiento
+### 3.3 Ecuacion del movimiento
 
 La dinámica del sistema se describe mediante una ecuación diferencial de segundo orden $m\ddot{x}(t) + b\dot{x}(t) + kx = F(t)\$ 
 
-## 2 Sistemas Acoplados 
+## 4. Tipos de fricción
+
+En un sistema mecánico se dan diferentes tipos de fricción que serán explicados brevemente a continuación:
+### 4.1 Fricción estática
+>🔑 Es la fuerza que debe vencerse para iniciar el movimiento. Ocurre cuando dos superficies están en contacto pero no hay movimiento relativo entre ellas.
+### 4.2 Fricción por deslizamiento
+>🔑 Actúa cuando dos superficies se mueven una sobre la otra (deslizamiento).Su magnitud es generalmente menor que la fricción estática.
+### 4.3 Fricción por rodamiento
+>🔑 Se produce cuando una masa rueda sobre una superficie (ej: ruedas, rodamientos).Es mucho menor que la fricción por deslizamiento, reduciendo el desgaste y la energía necesaria para el movimiento.
+## 5. Ejemplo
+#### 💡Ejemplo 1
+Determinar el modelo del sistema teniendo en cuenta que la entrada es u(t) y la salida es y(posición):
+
+## 6. Sistemas Acoplados 
 
 Los sistemas acoplados son aquellos en los que dos o mas sistemas interactúan entre sí, influyendo mutuamente en su comportamiento. Estos sitemas están conectados de tal forma que el movimiento o la dinámica de un sistema afecta directamente al otro, lo que genera una relación interdependiente
 
