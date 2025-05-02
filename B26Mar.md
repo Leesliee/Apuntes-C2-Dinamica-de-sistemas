@@ -20,12 +20,28 @@ Este sistema es un modelo clásico en la mecánica que describe el comportamient
 >🔑 Elemento que hace que la energía se almacene y trata de volver a su estado natural aplicando una fuerza proporcional a la deformacion del resorte
 
 Según ley de hooke, esta fuerza tiende a devolver la masa a su poscición de equilibrio. La constante del resorte mide la rigidez del mismo.
+
 $$F_R = kx = k(x_1-x_2)$$
+
 Donde:
+
 k = Constante de elasticidad del resorte
+
 x = Posición
+
+En el transcurso de la asignatura, se asumirá que los resortes son lineales, es decir que la fuerza externa aplicada y el desplazamiento están relacionados por una constante de proporcionalidad $$k$$.
 #### Amortiguador(B):
-  >🔑Representa la ressitencia que disipa energia, como la fricion o un amortiguador real, su función es reducir la velocidad del sistema con el tiempo. La fuerza de amortiguamiento es proporcional a la velocidad de la masa.
+  >🔑Representa la ressitencia que disipa energia, mediante frición; su función es reducir la velocidad del sistema respecto tiempo.
+
+La fuerza de amortiguamiento es proporcional a la velocidad de la masa, se debe saber la velocidad relativa del émbolo como y la carcasa.
+
+$$F_F = b*\dot{x} = b(\dot{x_1}-\dot{x_2})$$
+
+Donde:
+
+b =  Constante de fricción viscosa
+
+$\dot{x}$= Velocidad relativa
 #### Fuerza externa F(t):
 >🔑Es cualquier fuerza que se apliquye desde el exterior, como una fuerza constante o periodica. 
 
