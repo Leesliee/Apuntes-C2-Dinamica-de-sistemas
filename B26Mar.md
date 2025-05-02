@@ -1,19 +1,27 @@
 # Modelamiento de sistemas mecánicos
 ### Nestor Alexander Avila Rojas, Leslie Stephania Rodriguez Marín
 ## 1. Introducción
-En el estudio de la dinámica de sistemas mecánicos, las leyes de Newton y las ecuaciones diferenciales son herramientas fundamentales para describir y predecir el comportamiento de cuerpos en movimiento. En esta clase, se exploró cómo aplicar las leyes de Newton (especialmente la segunda ley, $F=m*A para obtener ecuaciones diferenciales que modelen estos  sistemas mecánicos. Estas ecuaciones, una vez resueltas, nos dan información valiosa sobre la respuesta temporal del sistema, su estabilidad y su comportamiento bajo diferentes condiciones.
-## 2. Sistemas mecánicos
-​Un sistema mecánico es un conjunto de componentes físicos interconectados cuya función principal es transformar o transmitir movimiento y fuerza desde una fuente de energía hasta un punto de salida, permitiendo así la realización de un trabajo específico.
-### 1.1 Sistema masa-resorte-amortiguador
+En el estudio de la dinámica de sistemas mecánicos, las leyes de Newton y las ecuaciones diferenciales son herramientas fundamentales para describir y predecir el comportamiento de cuerpos en movimiento. En esta clase, se exploró cómo aplicar las leyes de Newton (especialmente la segunda ley, $F=m*A$ para obtener ecuaciones diferenciales que modelen estos  sistemas mecánicos. Estas ecuaciones, una vez resueltas, nos dan información valiosa sobre la respuesta temporal del sistema, su estabilidad y su comportamiento bajo diferentes condiciones.
+## 2. Modelamiento de sistemas
+Todo fenómeno físico ya sea mecánico, eléctrico, hidráulico o combinaciones entre ellos puede tener un modelamiento que se puede expresar a partir de una ED. Dependiendo de la naturaleza del sistema, el modelamiento de un sistema permite analizar el comportamiento del mismo; lo más importante es el análisis, empezando por conocer la entrada y la salida del sistema a estudiar.
+## 3. Sistemas mecánicos
+>🔑​Un sistema mecánico es un conjunto de componentes físicos interconectados cuya función principal es transformar o transmitir movimiento y fuerza desde una fuente de energía hasta un punto de salida, permitiendo así la realización de un trabajo específico.
+### 3.1 Sistema masa-resorte-amortiguador
 
-Un sistema masa-resorte-amortiguador es un modelo mecánico fundamental que describe cómo una masa se mueve bajo la influencia de fuerzas elásticas y de amortiguamiento. Este sistema es un modelo clasico en la mecanica que describe el comportamiento de un objeto (masa) que esta sujeto a la accion de un resorte y un amortiguador. Este sistema es fundamental para entender para entender como las fuerzas afectan el movimiento de objetos y como se disipa la energia en sistemas reales
+>🔑Un sistema masa-resorte-amortiguador es un modelo mecánico fundamental que describe cómo una masa se mueve bajo la influencia de fuerzas elásticas y de amortiguamiento.
 
-### 1.2 Componentes principales
+Este sistema es un modelo clásico en la mecánica que describe el comportamiento de un objeto (masa) que esta sujeto a la acción de un resorte y un amortiguador. Este sistema es fundamental para entender para entender como las fuerzas afectan el movimiento de objetos y como se disipa la energía en sistemas reales.
 
-- **Masa(m):** Representa el objeto que se mueve bajo la influencia de las fuerzas del resorte y el amortiguador.
-- **Resorte(k):** Aplica una fuerza proporcional a la deformacion del resorte, segun ley de hooke. Esta fuerza tiende a devolver la masa a su poscición de equilibrio. La constante del resorte mide la rigidez del mismo.
-- **Amortiguador(B):** Representa la ressitencia que disipa energia, como la fricion o un amortiguador real, su función es reducir la velocidad del sistema con el tiempo. La fuerza de amortiguamiento es proporcional a la velocidad de la masa.
-- **Fuerza externa F(t):** Es cualquier fuerza que se apliquye desde el exterior, como una fuerza constante o periodica. 
+### 3.2 Componentes principales
+
+#### Masa(m):
+  >🔑 Representa el objeto que se mueve bajo la influencia de las fuerzas del resorte y el amortiguador.
+#### Resorte(k):
+>🔑 Aplica una fuerza proporcional a la deformacion del resorte, segun ley de hooke. Esta fuerza tiende a devolver la masa a su poscición de equilibrio. La constante del resorte mide la rigidez del mismo.
+#### Amortiguador(B):
+  >🔑Representa la ressitencia que disipa energia, como la fricion o un amortiguador real, su función es reducir la velocidad del sistema con el tiempo. La fuerza de amortiguamiento es proporcional a la velocidad de la masa.
+#### Fuerza externa F(t):
+>🔑Es cualquier fuerza que se apliquye desde el exterior, como una fuerza constante o periodica. 
 
 ### 1.3 Ecuacion del movimiento
 
