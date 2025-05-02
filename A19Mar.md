@@ -115,7 +115,7 @@ Y por último se encuentra la solución en el dominio del tiempo:
 
 $$f(t) =  1 + 2t -\frac{1}{2}*cos(2t)-\frac{1}{2}*sen(2t)$$
 ## 2. Retroalimentación: Tema 2
-## 📚 Ejercicio 1:
+### 📚 Ejercicio 1:
 $$2\ddot{x} + 2\dot{x} + x = 1\$$  
 
 Con las condiciones iniciales: $x(0) = 0,\quad \dot{x}(0) = 2$
@@ -164,7 +164,7 @@ $$B=\frac{1}{5}$$
 $$D=\frac{20}{5} = 4$$
 $$A = 1$$
 
-## 📚 Ejercicio 2:
+### 📚 Ejercicio 2:
 
 Determinar la función en el dominio del tiempo de F(s):
 
