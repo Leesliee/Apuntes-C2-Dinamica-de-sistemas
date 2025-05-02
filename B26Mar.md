@@ -1,4 +1,4 @@
-# Modelamiento de sistemas
+# Modelamiento de sistemas mecánicos
 ### Nestor Alexander Avila Rojas, Leslie Stephania Rodriguez Marín
 ## 1. Introducción
 ## 2. Sistemas mecánicos
