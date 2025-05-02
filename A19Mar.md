@@ -118,13 +118,13 @@ $$f(t) =  1 + 2t -\frac{1}{2}*cos(2t)-\frac{1}{2}*sen(2t)$$
 ## 📚 Ejercicio 1:
 $$2\ddot{x} + 2\dot{x} + x = 1\$$  
 
-**Con las condiciones iniciales:**  $x(0) = 0,\quad \dot{x}(0) = 2$
+Con las condiciones iniciales: $x(0) = 0,\quad \dot{x}(0) = 2$
 
-**Aplicando Transformada de Laplace:**
+Aplicando Transformada de Laplace:
 
 $$2[s^2 X(s) - s x(0) - \dot{x}(0)] + 2[s X(s) - x(0)] + X(s) = \frac{1}{s}$$
 
-**Sustituyendo condiciones iniciales:**
+Sustituyendo condiciones iniciales:
 
 $$2[s^2 X(s) - 2] + 2[s X(s)] + X(s) = \frac{1}{s}$$
 
@@ -134,19 +134,19 @@ $$X(s)(2s^2 + 2s + 1) = \frac{1}{s} + 4$$
 
 $$X(s) = \frac{1 + 4s}{s(2s^2 + 2s + 1)}$$
 
-**Aplicando fracciones parciales:** 
+Aplicando fracciones parciales:
 
 $$\frac{1 + 4s}{s(2s^2 + 2s + 1)} = \frac{A}{s} + \frac{Bs + D}{2s^2 + 2s + 1}$$
 
-**Determinación de A:**
+Determinación de A:
 
 $$1 + 4s = A(2s^2 + 2s + 1) + (Bs + D)s$$
 
-**Al evaluar s= 0**
+Al evaluar s= 0
 
 $$A = \frac{1 + 4(0)}{2(0)^2 + 2(0) + 1} = \frac{1}{1} = 1$$
 
-**Al evaluar s = -1 + 2i**
+Al evaluar s = -1 + 2i
 
 $$\frac{1 + 4(-1 + 2i)}{-1 + 2i}  = (-1 + 2i)(B(-1 + 2i) + D)$$
 
@@ -170,34 +170,34 @@ Determinar la función en el dominio del tiempo de F(s):
 
 $$\frac{6S}{(S-\frac{5}{2})(S^2 -4S + 8)}$$
 
-**Aplicando fracciones parciales:**
+Aplicando fracciones parciales:
 
 $$\frac{6S}{(S-\frac{5}{2})(S^2 -4S + 8)} = \frac{A}{S-\frac{5}{2}} + \frac{Bs + C}{S^2-4S+8}$$
 
-**Se multiplica ambos lados por el denominador comun para eliminar los denominadores**
+Se multiplica ambos lados por el denominador comun para eliminar los denominadores
 
-**Se expande y se agrupa en términos semejantes**
+Se expande y se agrupa en términos semejantes
 
 $$6s= As^2 - 4As + 8A + Bs^2 - \frac{5}{2} Bs + Cs - \frac{5}{2}C$$
 
 $$6s= (A+B)s^2 + (-4A - \frac{5}{2}B + C)s + (8A - \frac{5}{2}C) - \frac{5}{2}C$$
 
-**Se igualan los coeficientes de ambos lados:**
+Se igualan los coeficientes de ambos lados:
 
-**Coeficiente de s^2:**
+Coeficiente de s^2:
 
 $$A+B=0$$
 $$B = -A$$
 
-**Coeficiente de s:**
+Coeficiente de s:
 
 $$-4A - \frac{5}{2}B + C = 6$$
 
-**Término independiente**
+Término independiente:
 
 $$8A - \frac{5}{2}C=0$$
 
-**Se sustituye B=A en la segunda ecuación:**
+Se sustituye B=A en la segunda ecuación:
 
 $$-4A - \frac{5}{2} (-A) + C = 6$$
 
@@ -205,20 +205,21 @@ $$-4A \frac{5}{2}A + C = 6$$
 
 $$-\frac{8}{2}A + \frac{5}{2}A+C=6$$
 
-**Ecuación 1:**
+Ecuación 1:
 
 $$-\frac{3}{2}A + C = 6 $$
 
-**Ecuación término independiente:**
+Ecuación término independiente:
 
 $$8A - \frac{5}{2}C=0$$
 
 $$8A = \frac{5}{2}C$$
-**Ecueción 2:**
+
+Ecueción 2:
 
 $$C=\frac{16}{5}A$$
 
-**Se sustituye $C = \frac{16}{5}A$ en la Ecuación 1:**
+Se sustituye $C = \frac{16}{5}A$ en la Ecuación 1:
 
 $$-\frac{3}{2}A + \frac{16}{5}A = 6$$
 
@@ -228,50 +229,50 @@ $$\frac{17}{10}A=6$$
 
 $$A = \frac{60}{17}$$
 
-**Entonces:**
+Entonces:
 
 $$B = -A = -\frac{60}{17}$$
 
 $$C = \frac{16}{5} \cdot \frac{60}{17} = \frac{960}{85} = \frac{192}{17}$$
 
-**Por tanto, la descomposición en fracciones parciales es:**
+Por tanto, la descomposición en fracciones parciales es:
 
 $$F(s) = \frac{60}{17} \cdot \frac{1}{s - \frac{5}{2}} + \frac{-\frac{60}{17}s + \frac{192}{17}}{s^2 - 4s + 8}$$
 
-**Se simplifica:**
+Se simplifica:
 
 $$F(s) = \frac{60}{17} \cdot \frac{1}{s - \frac{5}{2}} - \frac{60}{17} \cdot \frac{s - \frac{192}{60}}{s^2 - 4s + 8}$$
 
 $$F(s) = \frac{60}{17} \cdot \frac{1}{s - \frac{5}{2}} - \frac{60}{17} \cdot \frac{s - \frac{16}{5}}{s^2 - 4s + 8}$$
 
-**Para el término $s^2 - 4s + 8$ se completa el cuadrado:**
+Para el término $s^2 - 4s + 8$ se completa el cuadrado:
 
 $$s^2 - 4s + 8 = (s^2 - 4s + 4) + 4 = (s - 2)^2 + 4$$
 
-**Por tanto:**
+Por tanto:
 
 $$F(s) = \frac{60}{17} \cdot \frac{1}{s - \frac{5}{2}} - \frac{60}{17} \cdot \frac{s - \frac{16}{5}}{(s - 2)^2 + 4}$$
 
-**Se separa el segundo término en dos partes para facilitar la transformada inversa:**
+Se separa el segundo término en dos partes para facilitar la transformada inversa:
 
 $$\frac{s - \frac{16}{5}}{(s - 2)^2 + 4} = \frac{s - 2}{(s - 2)^2 + 4} + \frac{-2 + \frac{16}{5}}{(s - 2)^2 + 4}$$
 
 $$= \frac{s - 2}{(s - 2)^2 + 4} + \frac{\frac{6}{5}}{(s - 2)^2 + 4}$$
 
-**Entonces:**
+Entonces:
 
 $$F(s) = \frac{60}{17} \cdot \frac{1}{s - \frac{5}{2}} - \frac{60}{17} \left( \frac{s - 2}{(s - 2)^2 + 4} + \frac{6}{5} \cdot \frac{1}{(s - 2)^2 + 4} \right)$$
 
-**Distribuyendo:**
+Distribuyendo:
 
 $$F(s) = \frac{60}{17} \cdot \frac{1}{s - \frac{5}{2}} - \frac{60}{17} \cdot \frac{s - 2}{(s - 2)^2 + 4} - \frac{60}{17} \cdot \frac{6}{5} \cdot \frac{1}{(s - 2)^2 + 4}$$
 
 $$= \frac{60}{17} \cdot \frac{1}{s - \frac{5}{2}} - \frac{60}{17} \cdot \frac{s - 2}{(s - 2)^2 + 4} - \frac{72}{17} \cdot \frac{1}{(s - 2)^2 + 4}$$
 
-**Aplicando transformada inversa de Laplace:**
+Aplicando transformada inversa de Laplace:
 
 $$f(t) = \frac{60}{17} e^{\frac{5}{2}t} - \frac{e^{2t}}{17} \left(60 \cos(2t) + 36 \sin(2t) \right)$$
 ## 4. Conclusiones
-En esta sesión 
+En esta sesión se comprendieron diversos errores cometidos durante la presentación del examen. Errores que por más pequeños que fueron afectaron la solución de la ecuación diferencial.
 ## 5. Referencias
 
