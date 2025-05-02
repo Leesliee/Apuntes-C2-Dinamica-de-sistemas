@@ -1,4 +1,7 @@
-## 3 CIRCUITOS RLC
+# Modelamiento de sistemas eléctricos RLC
+### Nestor Alexander Avila Rojas, Leslie Stephania Rodriguez Marín
+## 1. Introducción
+## 2. Ciruitor RLC
 Un circuito RLC es un circuito eléctrico que está formado por resistencias inductancias y capacitancias estas a su vez están conectadas en serie o en paralelo también pueden ser circuitos mixtos son fundamentales para los sistemas de control filtrado de señales y otros circuitos electrónicos.
 
 ![image](https://github.com/user-attachments/assets/bfbdd38f-73fe-4780-82c3-9c42bf77f4ca) 
