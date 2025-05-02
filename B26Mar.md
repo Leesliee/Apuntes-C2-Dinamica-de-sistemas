@@ -1,6 +1,7 @@
 # Modelamiento de sistemas mecánicos
 ### Nestor Alexander Avila Rojas, Leslie Stephania Rodriguez Marín
 ## 1. Introducción
+En el estudio de la dinámica de sistemas mecánicos, las leyes de Newton y las ecuaciones diferenciales son herramientas fundamentales para describir y predecir el comportamiento de cuerpos en movimiento. En esta clase, se exploró cómo aplicar las leyes de Newton (especialmente la segunda ley, $F=m*A para obtener ecuaciones diferenciales que modelen estos  sistemas mecánicos. Estas ecuaciones, una vez resueltas, nos dan información valiosa sobre la respuesta temporal del sistema, su estabilidad y su comportamiento bajo diferentes condiciones.
 ## 2. Sistemas mecánicos
 ​Un sistema mecánico es un conjunto de componentes físicos interconectados cuya función principal es transformar o transmitir movimiento y fuerza desde una fuente de energía hasta un punto de salida, permitiendo así la realización de un trabajo específico.
 ### 1.1 Sistema masa-resorte-amortiguador
