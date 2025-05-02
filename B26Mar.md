@@ -17,7 +17,13 @@ Este sistema es un modelo clásico en la mecánica que describe el comportamient
 #### Masa(m):
   >🔑 Representa el objeto que se mueve bajo la influencia de las fuerzas del resorte y el amortiguador.
 #### Resorte(k):
->🔑 Aplica una fuerza proporcional a la deformacion del resorte, segun ley de hooke. Esta fuerza tiende a devolver la masa a su poscición de equilibrio. La constante del resorte mide la rigidez del mismo.
+>🔑 Elemento que hace que la energía se almacene y trata de volver a su estado natural aplicando una fuerza proporcional a la deformacion del resorte
+
+Según ley de hooke, esta fuerza tiende a devolver la masa a su poscición de equilibrio. La constante del resorte mide la rigidez del mismo.
+$$F_R = kx = k(x_1-x_2)$$
+Donde:
+k = Constante de elasticidad del resorte
+x = Posición
 #### Amortiguador(B):
   >🔑Representa la ressitencia que disipa energia, como la fricion o un amortiguador real, su función es reducir la velocidad del sistema con el tiempo. La fuerza de amortiguamiento es proporcional a la velocidad de la masa.
 #### Fuerza externa F(t):
