@@ -51,7 +51,8 @@ $$T(t)-k\Theta (t)-b\dot{\Theta(t)}=J\ddot{\Theta (t) }$$
 
 ## 2.1 Conversión Movimiento Translacional-Rotacional
 Se realizan mediante sistemas de transmisión. Estos sistemas cambian dirección y velocidad de torque.
-$$\frac{T_1}{T_2}=\frac{N_1}{N_2}=\frac{\Theta_1}{\Theta_2}
+
+$$\frac{T_1}{T_2}=\frac{N_1}{N_2}=\frac{\Theta_1}{\Theta_2}$$
 ### 2.1.1 Poleas y correas
 Transmiten movimiento rotacional a uno lineal o al contrario a través de una banda o varias bandas.
 ### 2.1.2 Cremallera y piñón
@@ -149,11 +150,14 @@ Si no entra energía externa:
 
 $$ \Delta(T+U)=0$$
 ## 4. Conclusiones
+El modelamiento de sistemas rotacionales es una herramienta clave para comprender el comportamiento de sistemas mecánicos en movimiento, los cuales deben ser analizados con rigurosidad, especialmente cuando presentan múltiples grados de libertad, lo que puede derivar en varias ecuaciones diferenciales a resolver.
 
+Aunque el enfoque basado en trabajo, energía y potencia permite simplificar el análisis en ciertos casos, su aplicación está limitada a sistemas conservativos. Para lograr un modelado más eficiente desde el punto de vista energético en sistemas complejos, es preferible utilizar métodos más avanzados como las ecuaciones de Lagrange. Sin embargo, el enfoque clásico basado en las leyes de Newton sigue siendo el más recomendable cuando se requiere un análisis más detallado y directo en sistemas con múltiples fuerzas e interacciones.
+
+Además, los sistemas de transmisión —como engranajes, palancas y bandas— también requieren un análisis cuidadoso, ya que afectan directamente la dinámica del sistema rotacional al modificar relaciones de velocidad, torque y dirección del movimiento.
 
 ## 5. Referencias
-
-
+Concepto.de. (s.f.). Energía potencial. Recuperado el 3 de mayo de 2025, de https://concepto.de/energia-potencial/
 Jorge Eduardo Cote Ballesteros. (2024). Sistemas mecánicos II. ETITC
 
 
