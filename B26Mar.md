@@ -74,12 +74,18 @@ Figura 2: DCL de masa
 
 En este caso, no se tiene en cuenta la fuerza del peso, pues, el movimiento es horizontal. La sumatoria de fuerzas quedaría de la siguiente manera:
 
-$$u(t)-F_R-F_F= m * a $$//
-Sabiendo que://
-$$F_R= k_2*y(t)$$//
-$$F_F= k_1 * \dot{y}$$//
-El modelo del sistema sería://
-$$u(t)-k_2 * y(t) - k_1 * \dot{y} = m * \ddot{y}$$//
+$$u(t)-F_R-F_F= m * a $$
+
+Sabiendo que:
+
+$$F_R= k_2*y(t)$$
+
+$$F_F= k_1 * \dot{y}$$
+
+El modelo del sistema sería:
+
+$$u(t)-k_2 * y(t) - k_1 * \dot{y} = m * \ddot{y}$$
+
 
 
 ## 6. Sistemas Acoplados 
