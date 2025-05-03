@@ -159,6 +159,8 @@ Además, los sistemas de transmisión —como engranajes, palancas y bandas— t
 ## 5. Referencias
 Concepto.de. (s.f.). Energía potencial. Recuperado el 3 de mayo de 2025, de https://concepto.de/energia-potencial/
 
+Jorge Eduardo Cote Ballesteros. (2024). Sistemas mecánicos I. ETITC
+
 Jorge Eduardo Cote Ballesteros. (2024). Sistemas mecánicos II. ETITC
 
 
