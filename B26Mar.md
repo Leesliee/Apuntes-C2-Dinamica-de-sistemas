@@ -62,6 +62,26 @@ En un sistema mecánico se dan diferentes tipos de fricción que serán explicad
 #### 💡Ejemplo 1
 Determinar el modelo del sistema teniendo en cuenta que la entrada es u(t) y la salida es y(posición):
 ![Figura 1](Imagenesf/ej1.png)
+
+
+Figura 1: Ejemplo 1
+
+DCL de masa 1:
+
+![Figura 2](Imagenesf/dcl1e1.png)
+
+Figura 2: DCL de masa
+
+En este caso, no se tiene en cuenta la fuerza del peso, pues, el movimiento es horizontal. La sumatoria de fuerzas quedaría de la siguiente manera:
+
+$$u(t)-F_R-F_F= m * a $$//
+Sabiendo que://
+$$F_R= k_2*y(t)$$//
+$$F_F= k_1 * \dot{y}$$//
+El modelo del sistema sería://
+$$u(t)-k_2 * y(t) - k_1 * \dot{y} = m * \ddot{y}$$//
+
+
 ## 6. Sistemas Acoplados 
 
 Los sistemas acoplados son aquellos en los que dos o mas sistemas interactúan entre sí, influyendo mutuamente en su comportamiento. Estos sitemas están conectados de tal forma que el movimiento o la dinámica de un sistema afecta directamente al otro, lo que genera una relación interdependiente
