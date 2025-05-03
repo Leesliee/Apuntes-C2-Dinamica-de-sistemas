@@ -50,7 +50,8 @@ Remplazando, se obtendría la función que modela el sistema:
 $$T(t)-k\Theta (t)-b\dot{\Theta(t)}=J\ddot{\Theta (t) }$$
 
 ## 2.1 Conversión Movimiento Translacional-Rotacional
-Para estos sistemas veremos el proceso mediante el cual se convierte un desplazamiento lineal en un desplazamiento angular o a la inversa todo esto mediante un sistema mecánico de transmisión, los sistemas de transmisión más comunes son:
+Se realizan mediante sistemas de transmisión. Estos sistemas cambian dirección y velocidad de torque.
+$$\frac{T_1}{T_2}=\frac{N_1}{N_2}=\frac{\Theta_1}{\Theta_2}
 ### 2.1.1 Poleas y correas
 Transmiten movimiento rotacional a uno lineal o al contrario a través de una banda o varias bandas.
 ### 2.1.2 Cremallera y piñón
@@ -115,7 +116,7 @@ $$EC = \Delta T = \frac{1}{2}J\Theta_2^2-\frac{1}{2}J\Theta_1^2$$
 
 $$Potencia = \dot{W}$$
 
-$$P_media$$ = \frac{trabajo\ realizado(t_1-t_2)}{t_1-t_2}$$
+$$P_{media}$$ = \frac{trabajo\ realizado(t_1-t_2)}{t_1-t_2}$$
 
 ##### Energía potencial en un resorte
 >🔑 Trabajo neto sobre el resorte por las fuerzas que actúan en sus extremos cuando el resorte es comprimido o estirado.
@@ -132,7 +133,7 @@ Es la potencia usada para acelerar una masa en línea recta.
 
 $$P=\dot{W}=F\dot{x}=m\ddot{x}\dot{x}$$
 
-$$T={1}{2}mv^2$$
+$$T=\frac{1}{2}mv^2$$
 
 $$P=m\ddot{x}\dot{x} =m\dot{v}v=\dot{T}$$
 #### Energía disipada
@@ -148,7 +149,7 @@ Si no entra energía externa:
 
 $$ \Delta(T+U)=0$$
 ## 4. Conclusiones
-pendiente
+
 
 ## 5. Referencias
 
