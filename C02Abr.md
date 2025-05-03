@@ -51,14 +51,15 @@ $$T(t)-k\Theta (t)-b\dot{\Theta(t)}=J\ddot{\Theta (t) }$$
 
 ## 2.1 Conversión Movimiento Translacional-Rotacional
 Para estos sistemas veremos el proceso mediante el cual se convierte un desplazamiento lineal en un desplazamiento angular o a la inversa todo esto mediante un sistema mecánico de transmisión, los sistemas de transmisión más comunes son:
-### Poleas y correas
+### 2.1.1 Poleas y correas
 Transmiten movimiento rotacional a uno lineal o al contrario a través de una banda o varias bandas.
-### Cremallera y piñón
+### 2.1.2 Cremallera y piñón
 Convierte el movimiento rotacional de un engranaje en movimiento lineal.
-### Tornillos sin fin 
+### 2.1.3 Tornillos sin fin 
 Convierte la rotación de un tornillo dada ya sea por un motor o un giro manual en movimiento lineal.
 
-💡**Ejemplo:** Tenemos el siguiente sistema combinando el cual es un motor enganchado a una polea para a si poder mover la caja.
+### 💡Ejemplo:
+Tenemos el siguiente sistema combinando el cual es un motor enganchado a una polea para a si poder mover la caja.
 
 ![image](https://github.com/user-attachments/assets/80f14a08-aa53-4ce4-a5bb-5852d78c2775)
 
@@ -78,10 +79,20 @@ Teniendo en cuenta que el $\theta = y/r$ remplazamos en la ecuacion
 
 $$T_{m}-mr\frac{\partial^2 y}{\partial t^2}-\frac{B}{r}\frac{\partial y }{\partial t}=\frac{J_{m}}{r}\frac{\partial^2 y}{\partial t^2}$$
 
-## 3. Conclusiones
+## 3. Trabajo, energía y potencia
+### 3.1 Trabajo
+>🔑 El trabajo es la medida acerca de qué tanta fuerza se aplica en un movimiento.
+El trabajo se representa de la siguiente forma:
+$$W=F_X$$
+
+Y su unidad de medida son los Newton*metro (Nm).
+
+$$Trabajo total realizado: \(\int_{0}^{x} k_x \,dx\) = \frac{1}{2} kx^2$$
+
+## 4. Conclusiones
 pendiente
 
-## 4. Referencias
+## 5. Referencias
 
 
 Jorge Eduardo Cote Ballesteros. (2024). Sistemas mecánicos II. ETITC
