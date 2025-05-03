@@ -1,29 +1,39 @@
 # Modelamiento de sistemas mecánicos 2
 ### Nestor Alexander Avila Rojas, Leslie Stephania Rodriguez Marín
 ## 1. Introducción
+En el estudio de los sistemas dinámicos, el modelamiento de sistemas rotacionales desempeña un papel fundamental, ya que permite representar y analizar el comportamiento de mecanismos presentes en una amplia variedad de aplicaciones industriales y tecnológicas. 
+
+Durante esta clase se abordó la importancia de identificar elementos presentes en otro tipo de sistemas mecánicos. También se exploraron métodos alternativos de modelado a partir del análisis de trabajo, energía y potencia. Si bien este enfoque puede ser útil para sistemas simples, su aplicación en sistemas complejos resulta limitada debido a la dificultad para gestionar múltiples variables e interacciones.
+
+Finalmente, se introdujeron conceptos clave relacionados con mecanismos de transmisión como engranajes, palancas y bandas, los cuales permiten transformar y transferir el movimiento en un sistema mecánico. Estos elementos, al igual que las fuerzas involucradas, deben ser cuidadosamente considerados en el proceso de modelado para lograr representaciones precisas y útiles del comportamiento dinámico del sistema.
+
 ## 2. Sistemas Rotacionales
-Los sistemas rotacionales son otro tipo de sistemas mecanicos solo que en este caso lo que varia es la fuerza aplicada ya que es un movimiento circular que nos genera un torque,estos sistemas se analizan usando las leyes del movimiento rotacional, que son parecidas a las del movimiento traslacional pero en términos angulares.
+>🔑Los sistemas rotacionales son otro tipo de sistemas mecánicos, sólo que en este caso lo que varia es la fuerza aplicada ya que es un movimiento circular que nos genera un torque, estos sistemas se analizan usando las leyes del movimiento rotacional, que tienen cierta analogía con respecto a las del movimiento traslacional.
 
 ![image](https://github.com/user-attachments/assets/9e5ba5dd-1701-4749-8064-39ca76fd514d)
 
-Para el anaisis de estos sistemas usaremos leyes comparables al movimiento lineal tales como la fuerza de rosamiento donde el angulo $\varphi$ es el angulo de torcion.
-$$F_r = k*\varphi$$
+Figura 1: Movimiento rotacional
 
-Tambien tendremos la fuerza de friccion donde la $\frac{\mathrm{d}\varphi }{\mathrm{d} t}$ es la velocidad angular del sistema
+Para el análisis de estos sistemas usaremos leyes comparables al movimiento lineal tales como la fuerza de rozamiento donde el ángulo $\varphi$ es el ángulo de torsión.
+$$F_R = k*\varphi$$
+
+Tambien tendremos la fuerza de fricción donde la $\frac{\mathrm{d}\varphi }{\mathrm{d} t}$ es la velocidad angular del sistema
 $$F_{f}=b*\frac{\mathrm{d}\varphi }{\mathrm{d} t}$$
-y por ultimo el torque donde la constante j es el momento de inercia del sistema 
+Y por último el torque donde la constante $J$ es el momento de inercia del sistema: 
 
-$$T=j*\frac{\partial \varphi ^2 }{\partial t^2}$$
+$$T=J*\frac{\partial \varphi ^2 }{\partial t^2}$$
 
-Deigual forma como se venia trabajando para los demas sistemas este tambien lo anamizaremos por medio de un diagrama de cuerpo libre el cual nos quedara de la siguiente forma ya con las fuerzas dibujadas para asi poder generar la funcion correspondiente.
+De igual manera como se venía trabajando para los demás sistemas mecánicos este también lo anamizaremos por medio de un diagrama de cuerpo libre el cual nos quedara de la siguiente forma, ya con las fuerzas dibujadas para así generar la función correspondiente que modela el sistema.
 
-💡**Ejemplo:**
+### 💡Ejemplo 1:
 ![image](https://github.com/user-attachments/assets/5180bf33-115c-42fb-9293-3210f8cc7aa8)
 
-Una vez con esto podremos hacer la funcion teniendo que $\sum T=J*\alpha$ para ello tendremos que:
+Figura 2: Ejemplo 1
 
-$$T-F_{R}-F_{F}=j*\alpha$$
-Remplazando tendriamos que la funcion no quedaria de la siguiente forma.
+Una vez con esto podremos determinar la función teniendo en cuenta que $\sum T=J*\alpha$:
+
+$$T-F_{R}-F_{F}=J*\alpha$$
+Remplazando, se obtendría la función que modela el sistema:
 
 $$T(t)-K\theta (t)-B\frac{\partial \theta(t)}{\partial t}=J\frac{\partial^2\theta (t) }{\partial t^2}$$
 
