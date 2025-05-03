@@ -61,7 +61,7 @@ En un sistema mecánico se dan diferentes tipos de fricción que serán explicad
 ## 5. Ejemplo
 #### 💡Ejemplo 1
 Determinar el modelo del sistema teniendo en cuenta que la entrada es u(t) y la salida es y(posición):
-![Figura 1](Imagenesf/ej1c12.png)
+![Figura 1](Imagenesf/ej1.png)
 ## 6. Sistemas Acoplados 
 
 Los sistemas acoplados son aquellos en los que dos o mas sistemas interactúan entre sí, influyendo mutuamente en su comportamiento. Estos sitemas están conectados de tal forma que el movimiento o la dinámica de un sistema afecta directamente al otro, lo que genera una relación interdependiente
