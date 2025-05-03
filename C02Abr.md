@@ -15,27 +15,36 @@ Finalmente, se introdujeron conceptos clave relacionados con mecanismos de trans
 Figura 1: Movimiento rotacional
 
 Para el análisis de estos sistemas usaremos leyes comparables al movimiento lineal tales como la fuerza de rozamiento donde el ángulo $\varphi$ es el ángulo de torsión.
+
 $$F_R = k*\varphi$$
 
-Tambien tendremos la fuerza de fricción donde la $\frac{\mathrm{d}\varphi }{\mathrm{d} t}$ es la velocidad angular del sistema
+Tambien tendremos la fuerza de fricción donde la $\frac{\mathrm{d}\varphi }{\mathrm{d} t}$ es la velocidad angular del sistema.
+
 $$F_{f}=b*\frac{\mathrm{d}\varphi }{\mathrm{d} t}$$
+
 Y por último el torque donde la constante $J$ es el momento de inercia del sistema: 
 
 $$T=J*\frac{\partial \varphi ^2 }{\partial t^2}$$
 
+
+
 De igual manera como se venía trabajando para los demás sistemas mecánicos este también lo anamizaremos por medio de un diagrama de cuerpo libre el cual nos quedara de la siguiente forma, ya con las fuerzas dibujadas para así generar la función correspondiente que modela el sistema.
 
 ### 💡Ejemplo 1:
-![image](https://github.com/user-attachments/assets/5180bf33-115c-42fb-9293-3210f8cc7aa8)
+Encuentre el modelo matemático de la figura teniendo en cuenta que la entrada es  T(t) y la salida es \theta (t):
 
-Figura 2: Ejemplo 1
+![Figura 1](Imagenesf/sistema2.png)
+Figura 1: Ejemplo 1
+
+![Figura 1](Imagenesf/dcle3.png)
+Figura 2: DCL carga
 
 Una vez con esto podremos determinar la función teniendo en cuenta que $\sum T=J*\alpha$:
 
 $$T-F_{R}-F_{F}=J*\alpha$$
 Remplazando, se obtendría la función que modela el sistema:
 
-$$T(t)-K\theta (t)-B\frac{\partial \theta(t)}{\partial t}=J\frac{\partial^2\theta (t) }{\partial t^2}$$
+$$T(t)-k\theta (t)-b\dot{\theta(t)}=J\ddot{\theta (t) }$$
 
 ## 2.1 Conversion Movimiento Translacional-Rotacional
 Para estos sistemas veremos el proceso mediante el cual se convierte un desplazamiento lineal en un desplazamiento angular o a la inversa todo esto mediante un sistema mecanico el cual puede ser desglosado en varias partes las mas comunes son:
