@@ -99,6 +99,7 @@ $$EP = U$$
 $$U=mgh$$
 
 Donde:
+
 $$m= Masa$$
 
 $$g = Gravedad$$
@@ -117,7 +118,7 @@ $$EC = \Delta T = \frac{1}{2}J\Theta_2^2-\frac{1}{2}J\Theta_1^2$$
 
 $$Potencia = \dot{W}$$
 
-$$P_{media}$$ = \frac{trabajo\ realizado(t_1-t_2)}{t_1-t_2}$$
+$$P_{media} = \frac{trabajo\ realizado(t_1-t_2)}{t_1-t_2}$$
 
 ##### Energía potencial en un resorte
 >🔑 Trabajo neto sobre el resorte por las fuerzas que actúan en sus extremos cuando el resorte es comprimido o estirado.
