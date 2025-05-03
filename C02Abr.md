@@ -33,15 +33,16 @@ De igual manera como se venía trabajando para los demás sistemas mecánicos es
 ### 💡Ejemplo 1:
 Encuentre el modelo matemático de la figura teniendo en cuenta que la entrada es  T(t) y la salida es $\Theta (t)$:
 
-![Figura 1](Imagenesf/sistema2.png)
+![Figura 1](Imagenesf/ejemplo3.png)
 Figura 1: Ejemplo 1
 
-![Figura 1](Imagenesf/dcle3.png)
+![Figura 1](Imagenesf/dclr1.png)
 Figura 2: DCL carga
 
 Una vez con esto podremos determinar la función teniendo en cuenta que $\sum T=J*\Theta$:
 
 $$T-F_{R}-F_{F}=J*\Theta$$
+
 Remplazando, se obtendría la función que modela el sistema:
 
 $$T(t)-k\Theta (t)-b\dot{\Theta(t)}=J\ddot{\Theta (t) }$$
