@@ -87,8 +87,31 @@ $$W=F_X$$
 
 Y su unidad de medida son los Newton*metro (Nm).
 
-$$Trabajo\ total\realizado: \(\int_{0}^{x} k_x \,dx\) = \frac{1}{2} kx^2$$
+$$Trabajo\ total\ realizado: \(\int_{0}^{x} k_x \,dx\) = \frac{1}{2} kx^2$$
+### 3.2 Energía
+>🔑 Capacidad para realizar trabajo, en este documento se hablará de dos tipos:
+#### 3.2.1 Energía potencial
+Cuando hay cambio de posición, se le llama energía potencial, se puede decir que es aquella que puede ser transformada inmediatamente en otras formas de energía, como la cinética, por ejemplo. Los resortes y las masas almacenan energía potencial. La EP (energía potencial) es equivalente al trabajo por la fuerza externa:
+$$EP = U$$
 
+$$U=mgh$$
+
+Donde:
+$$m= Masa$$
+
+$$g = Gravedad$$
+
+$$h = Altura$$
+#### 3.2.2 Energía cinética
+Ocurre cuando hay movimiento o velocidad. únicamente los elementos de inercia pueden almacenar energía cinética. 
+$$EC = \Delta T = \frac{1}{2}mv_2^2-\frac{1}{2}mv_1^2$$
+$$EC = \Delta T = \frac{1}{2}J\Theta_2^2-\frac{1}{2}J\Theta_1^2$$
+
+ ¿Qué tanto varió el trabajo sobre el cuerpo en movimiento?
+## 3.3 Potencia
+>🔑 Realización de trabajo que varía con respecto al tiempo:
+$$Potencia = \dot{W}$$
+$$P_media$$ = \frac{trabajo\ realizado(t_1-t_2)}{t_1-t_2}$$
 ## 4. Conclusiones
 pendiente
 
