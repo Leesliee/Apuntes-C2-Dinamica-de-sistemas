@@ -104,35 +104,48 @@ $$g = Gravedad$$
 $$h = Altura$$
 #### 3.2.2 Energía cinética
 Ocurre cuando hay movimiento o velocidad. únicamente los elementos de inercia pueden almacenar energía cinética. 
+
 $$EC = \Delta T = \frac{1}{2}mv_2^2-\frac{1}{2}mv_1^2$$
+
 $$EC = \Delta T = \frac{1}{2}J\Theta_2^2-\frac{1}{2}J\Theta_1^2$$
 
- ¿Qué tanto varió el trabajo sobre el cuerpo en movimiento?
+¿Qué tanto varió el trabajo sobre el cuerpo en movimiento?
 ## 3.3 Potencia
 >🔑 Realización de trabajo que varía con respecto al tiempo:
+
 $$Potencia = \dot{W}$$
+
 $$P_media$$ = \frac{trabajo\ realizado(t_1-t_2)}{t_1-t_2}$$
 
 ##### Energía potencial en un resorte
->🔑 Trabajo net sobre el resorte por las fuerzas que actúan en sus extremos cuando el resorte es comprimido o estirado.
+>🔑 Trabajo neto sobre el resorte por las fuerzas que actúan en sus extremos cuando el resorte es comprimido o estirado.
+
 $$ \Delta U=\frac{1}{2}kx^2$$
 ##### Potencia en un resorte
 $$P=\dot{W}$$
+
 $$U=\frac{1}{2}kx^2$$
+
 $$P=kx\dot{x}$$
 #### Potencia en una masa
 Es la potencia usada para acelerar una masa en línea recta.
+
 $$P=\dot{W}=F\dot{x}=m\ddot{x}\dot{x}$$
+
 $$T={1}{2}mv^2$$
+
 $$P=m\ddot{x}\dot{x} =m\dot{v}v=\dot{T}$$
 #### Energía disipada
 >🔑 La energía disipada en sistemas mecánicos es la que recibe el amortiguador y la transforma en forma de calor.
+>
 $$P = F\dot{x}$$
 ## 4. Conservación de energía
 Este método solo funciona para sistemas que sean conservativos, es decir que toda la energía se convierta en movimiento, no se disipa energía.
+
 $$U+T=K$$
 
 Si no entra energía externa:
+
 $$ \Delta(T+U)=0$$
 ## 4. Conclusiones
 pendiente
