@@ -11,18 +11,20 @@ Comprender estos principios no solo permite resolver circuitos, sino también vi
 
 ![image](https://github.com/user-attachments/assets/bfbdd38f-73fe-4780-82c3-9c42bf77f4ca) 
 
-### 💡Ejemplo:
-![image](https://github.com/user-attachments/assets/c25c2e1c-5cd9-41b0-a014-92bb979aec6c)
-
 Estos circuitos se rigen bajo la ley de ohm y otras leyes más como podemos ver en las siguientes ecuaciones tenemos que para cada uno de los elementos tenemos una ecuación característica estas son las siguientes.
 
 $$R=\frac{V(t)}{I(t)}$$
 $$I= C\frac{dV(t)}{dt}$$
 $$V= L\frac{di(t)}{dt}$$
 
-Teniendo en cuenta estas ecuaciones y la imagen anterior podemos resolver el ejemplo 2 el cual sería la solución del circuito en serie, para ello utilizaremos la ley de voltajes de kirchhoff para así poder solucionar y encontrar la ecuación que nos describe el sistema.
 
-Iniciaremos haciendo la suma de voltajes e igualando a cero.
+### 💡Ejemplo:
+
+![image](https://github.com/user-attachments/assets/c25c2e1c-5cd9-41b0-a014-92bb979aec6c)
+
+Figura2: Ejemplo 1
+
+Iniciaremos haciendo la suma de voltajes e igualando a cero:
 
 $$V_i + V_R + V_L V_C = 0$$
 
@@ -34,3 +36,5 @@ Una vez teniendo esto nos podemos dar cuenta que para que nos quede todo el fact
 
 $$-U(t)+RC\frac{\mathrm{d}V_{C}(t)}{\mathrm{d} t}+LC\frac{\mathrm{d^2}V_{C}(t)}{\mathrm{d}t^2}+V_{C}=0$$
 
+## 3. Conclusiones
+## 4. Referencias
