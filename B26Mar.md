@@ -109,14 +109,13 @@ $$u(t)+mg-k_2*y(t)-k_1\dot{y}=m\ddot{y}$$
 
 >🔑Los sistemas acoplados son aquellos en los que dos o más sistemas interactúan entre sí, influyendo mutuamente en su comportamiento. Estos sitemas están conectados de tal forma que el movimiento o la dinámica de un sistema afecta directamente al otro, lo que genera una relación interdependiente.
 
-### 2.1 Caracteristicas de los sistemas acoplados
+### 6.1 Caracteristicas de los sistemas acoplados
 - **Interacción:** los sistemas no son independientes, las variables que describen uno de los sitemas influyen en las variables del otro.
 - **Ecuaciones interrelacionadas:** Las ecuaciones que describen cada sistema están vinculadas. es decir, las ecuaciones diferenciales o algebraicas de un sistema contienen términos que dependen de las variables del otro sistema.
 - **Transferencia de energía:** Existe una transferencia de energia, fuerza o información entre los sistemas. esto puede ser a través de fuerzas físicas (como una conexión elástica o un amortiguador) o señales de otro tipo.
 
-### 2.2 Ecuaciones en sistemas acoplados 
-
-las ecuaciones diferenciales que describren estos sistemas suelen ser de la forma:
+### 6.2 Ecuaciones en sistemas acoplados 
+Las ecuaciones diferenciales que describren estos sistemas suelen ser de la forma:
 
 $m_1\ddot{x_1} + d_1\dot{x_1} + k_1x_1 - k_2(x_2-x_1) = F_1(t)\$ 
 
@@ -124,7 +123,8 @@ $m_2\ddot{x_2} + d_2\dot{x_2} + k_2(x_2-x_1) = F_2(t)\$
 
 aqui $x_1$ y $x_2$ representan el desplazamiento de cada masa, $k_2$ es la cosnstante del resorte que conecta las dos masas, y $f_1(t)$ y $f_2(t)$ son las fuerzas externas aplicadas a cada masa. Las ecuaciones estan interconectadas por que el movimiento de una masa afecta directamente a la otra.
 
-# 📚 Ejercicio masa-resorte-amortiguador
+## 7. 📚Ejercicios
+#### 📚Ejercicio 1
 
 Obtener las ecuaciones diferenciales del siguiente sistema 
 ![image](https://github.com/user-attachments/assets/ba02c2d3-3465-40e8-b9e0-e8a318840834)
@@ -163,11 +163,11 @@ Las ecuaciones que modelan el sistema son:
 $$b(\dot{y_2(t)} - \dot{y_1(t)}) + k(y_2(t) - y_1(t))= = m_2*\ddot{y}$$
 $$f(t)- b(\dot{y_1(t)} - \dot{y_2(t)}) - k(y_1(t) - y_2(t)) = m_1*\ddot{y}$$
 
-## 10. Conclusiones
+## 8. Conclusiones
 
 El análisis detallado de un sistema mecánico es esencial para comprender cómo interactúan las fuerzas dentro de él. Aunque las ecuaciones diferenciales permiten modelar su comportamiento dinámico, sin una comprensión clara de las entradas, salidas y tipos de fricción presentes, el modelo pierde utilidad práctica. Modelar sistemas mecánicos va más allá de resolver ecuaciones; requiere identificar correctamente las variables de entrada y salida, así como las fuerzas y fricciones que afectan al sistema. Sin este análisis previo, cualquier representación matemática carecerá de valor para predecir el comportamiento real del sistema.
 
-## 11. Referencias
+## 9. Referencias
 Universidad Nacional Autónoma de México. (2018). Modelado de sistemas mecánicos. Facultad de Estudios Superiores Cuautitlán. Recuperado el 3 de mayo de 2025, de https://masam.cuautitlan.unam.mx/dycme/dsf/modelo-mecanicos
 
 Ogata, Katsuhiko (1987) : Dinámica de Sistemas, Traducido de la primera edición en inglés de la obra System Dynamics, Prentice Hall Hispanoamericana, S.A., México.
