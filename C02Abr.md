@@ -34,10 +34,12 @@ De igual manera como se venía trabajando para los demás sistemas mecánicos es
 Encuentre el modelo matemático de la figura teniendo en cuenta que la entrada es  T(t) y la salida es $\Theta (t)$:
 
 ![Figura 1](Imagenesf/ejemplo3.png)
-Figura 1: Ejemplo 1
+
+Figura 2: Ejemplo 1
 
 ![Figura 1](Imagenesf/dclr1.png)
-Figura 2: DCL carga
+
+Figura 3: DCL carga
 
 Una vez con esto podremos determinar la función teniendo en cuenta que $\sum T=J*\Theta$:
 
@@ -47,8 +49,8 @@ Remplazando, se obtendría la función que modela el sistema:
 
 $$T(t)-k\Theta (t)-b\dot{\Theta(t)}=J\ddot{\Theta (t) }$$
 
-## 2.1 Conversion Movimiento Translacional-Rotacional
-Para estos sistemas veremos el proceso mediante el cual se convierte un desplazamiento lineal en un desplazamiento angular o a la inversa todo esto mediante un sistema mecanico el cual puede ser desglosado en varias partes las mas comunes son:
+## 2.1 Conversión Movimiento Translacional-Rotacional
+Para estos sistemas veremos el proceso mediante el cual se convierte un desplazamiento lineal en un desplazamiento angular o a la inversa todo esto mediante un sistema mecánico de transmisión, los sistemas de transmisión más comunes son:
 ### Poleas y correas
 Transmiten movimiento rotacional a uno lineal o al contrario a través de una banda o varias bandas.
 ### Cremallera y piñón
@@ -75,3 +77,13 @@ $$T_{m}-mr^{^2}\frac{\partial^2\theta  }{\partial t^2}-B\frac{\partial \theta }{
 Teniendo en cuenta que el $\theta = y/r$ remplazamos en la ecuacion
 
 $$T_{m}-mr\frac{\partial^2 y}{\partial t^2}-\frac{B}{r}\frac{\partial y }{\partial t}=\frac{J_{m}}{r}\frac{\partial^2 y}{\partial t^2}$$
+
+## 3. Conclusiones
+pendiente
+
+## 4. Referencias
+
+
+Jorge Eduardo Cote Ballesteros. (2024). Sistemas mecánicos II. ETITC
+
+
