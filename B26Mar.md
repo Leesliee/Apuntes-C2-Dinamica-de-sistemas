@@ -85,9 +85,26 @@ $$F_F= k_1 * \dot{y}$$
 El modelo del sistema sería:
 
 $$u(t)-k_2 * y(t) - k_1 * \dot{y} = m * \ddot{y}$$
+#### 💡Ejemplo 2
+Encontrar el modelo matemático para el sistema que representa la sispensión de un automóvil:
 
+![Figura 3](Imagenesf/sistemaej2.png)
 
+Figura 3: Ejemplo 2
 
+DCL de masa:
+
+![Figura 4](Imagenesf/dcl1e2.png)
+
+Figura 4: DCL de masa
+
+Se debe tener en cuenta que no hay normal, ya que la masa no está en una superficie donde repose la fuerza, además, la fricción del rodamiento no se toma, porque no hay un movimiento horizontal. La sumatoria de fuerzas se evidencia a continuación:
+
+$$u(t)+w-F_R-F_F=ma$$
+
+Entonces el modelamiento matemático sería:
+
+$$u(t)+mg-k_2*y(t)-k_1\dot{y}=m\ddot{y}$$
 ## 6. Sistemas Acoplados 
 
 Los sistemas acoplados son aquellos en los que dos o mas sistemas interactúan entre sí, influyendo mutuamente en su comportamiento. Estos sitemas están conectados de tal forma que el movimiento o la dinámica de un sistema afecta directamente al otro, lo que genera una relación interdependiente
