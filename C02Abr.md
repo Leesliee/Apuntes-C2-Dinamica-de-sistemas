@@ -31,7 +31,7 @@ $$T=J*\frac{\partial \varphi ^2 }{\partial t^2}$$
 De igual manera como se venía trabajando para los demás sistemas mecánicos este también lo anamizaremos por medio de un diagrama de cuerpo libre el cual nos quedara de la siguiente forma, ya con las fuerzas dibujadas para así generar la función correspondiente que modela el sistema.
 
 ### 💡Ejemplo 1:
-Encuentre el modelo matemático de la figura teniendo en cuenta que la entrada es  T(t) y la salida es \theta (t):
+Encuentre el modelo matemático de la figura teniendo en cuenta que la entrada es  T(t) y la salida es $\Theta (t)$:
 
 ![Figura 1](Imagenesf/sistema2.png)
 Figura 1: Ejemplo 1
@@ -39,12 +39,12 @@ Figura 1: Ejemplo 1
 ![Figura 1](Imagenesf/dcle3.png)
 Figura 2: DCL carga
 
-Una vez con esto podremos determinar la función teniendo en cuenta que $\sum T=J*\alpha$:
+Una vez con esto podremos determinar la función teniendo en cuenta que $\sum T=J*\Theta$:
 
-$$T-F_{R}-F_{F}=J*\alpha$$
+$$T-F_{R}-F_{F}=J*\Theta$$
 Remplazando, se obtendría la función que modela el sistema:
 
-$$T(t)-k\theta (t)-b\dot{\theta(t)}=J\ddot{\theta (t) }$$
+$$T(t)-k\Theta (t)-b\dot{\Theta(t)}=J\ddot{\Theta (t) }$$
 
 ## 2.1 Conversion Movimiento Translacional-Rotacional
 Para estos sistemas veremos el proceso mediante el cual se convierte un desplazamiento lineal en un desplazamiento angular o a la inversa todo esto mediante un sistema mecanico el cual puede ser desglosado en varias partes las mas comunes son:
