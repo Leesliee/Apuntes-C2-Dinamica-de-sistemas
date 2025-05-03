@@ -107,12 +107,12 @@ Entonces el modelamiento matemático sería:
 $$u(t)+mg-k_2*y(t)-k_1\dot{y}=m\ddot{y}$$
 ## 6. Sistemas Acoplados 
 
-Los sistemas acoplados son aquellos en los que dos o mas sistemas interactúan entre sí, influyendo mutuamente en su comportamiento. Estos sitemas están conectados de tal forma que el movimiento o la dinámica de un sistema afecta directamente al otro, lo que genera una relación interdependiente
+>🔑Los sistemas acoplados son aquellos en los que dos o más sistemas interactúan entre sí, influyendo mutuamente en su comportamiento. Estos sitemas están conectados de tal forma que el movimiento o la dinámica de un sistema afecta directamente al otro, lo que genera una relación interdependiente.
 
 ### 2.1 Caracteristicas de los sistemas acoplados
-- **Interaccion:** los sistemas no son independientes, las variables que describen uno de los sitemas influyen en las variables del otro.
+- **Interacción:** los sistemas no son independientes, las variables que describen uno de los sitemas influyen en las variables del otro.
 - **Ecuaciones interrelacionadas:** Las ecuaciones que describen cada sistema están vinculadas. es decir, las ecuaciones diferenciales o algebraicas de un sistema contienen términos que dependen de las variables del otro sistema.
-- **Transferencia de energia:** Existe una transferencia de energia, fuerza o información entre los sistemas. esto puede ser a través de fuerzas fisicas (como una conexión elástica o un amortiguador) o señales de otro tipo.
+- **Transferencia de energía:** Existe una transferencia de energia, fuerza o información entre los sistemas. esto puede ser a través de fuerzas físicas (como una conexión elástica o un amortiguador) o señales de otro tipo.
 
 ### 2.2 Ecuaciones en sistemas acoplados 
 
@@ -129,26 +129,47 @@ aqui $x_1$ y $x_2$ representan el desplazamiento de cada masa, $k_2$ es la cosns
 Obtener las ecuaciones diferenciales del siguiente sistema 
 ![image](https://github.com/user-attachments/assets/ba02c2d3-3465-40e8-b9e0-e8a318840834)
 
+Figura 5: Ejercicio 1
 
-**Se procede a realizar el diagrama de fuerzas para cada masa (Diagrama de cuerpo libre)
+Se procede a realizar el diagrama de fuerzas para cada masa (Diagrama de cuerpo libre)
 
-**Para masa 2:**
+Para masa 2:
 
 ![image](https://github.com/user-attachments/assets/fc3dab1e-3f57-476a-a1d6-b6f01a37c325)
 
+Figura 6: DCL M2
 
 $$fb+fk-ff=0$$
 $$b(\dot{y_2(t)} - \dot{y_1(t)}) + k(y_2(t) - y_1(t))= 0$$
 $$b(\dot{y_2(t)} - \dot{y_1(t)}) + k(y_2(t) - y_1(t))= m*a$$
-**Donde a = $\frac{d^2y(t)}{dt^2}$ que tambien se puede respresentar como $\ddot{y}$**
 
-**sabiendo esto tenemos:**
+Donde a = $\frac{d^2y(t)}{dt^2}$ que tambien se puede respresentar como $\ddot{y}$
+
+Teniendo eso en cuenta, tenemos:
 
 $$b(\dot{y_2(t)} - \dot{y_1(t)}) + k(y_2(t) - y_1(t))= = m_2*\ddot{y}$$
 
-**Para masa 1:**
+Para masa 1:
 
 ![image](https://github.com/user-attachments/assets/15612b6a-3e37-492a-adcc-3fd46a156a49)
 
+Figura 7: DCL M1
+
 $$f(t)-fk-fb=0$$
 $$f(t)- b(\dot{y_1(t)} - \dot{y_2(t)}) - k(y_1(t) - y_2(t)) = m_1*\ddot{y}$$
+
+Las ecuaciones que modelan el sistema son:
+
+$$b(\dot{y_2(t)} - \dot{y_1(t)}) + k(y_2(t) - y_1(t))= = m_2*\ddot{y}$$
+$$f(t)- b(\dot{y_1(t)} - \dot{y_2(t)}) - k(y_1(t) - y_2(t)) = m_1*\ddot{y}$$
+
+## 10. Conclusiones
+
+El análisis detallado de un sistema mecánico es esencial para comprender cómo interactúan las fuerzas dentro de él. Aunque las ecuaciones diferenciales permiten modelar su comportamiento dinámico, sin una comprensión clara de las entradas, salidas y tipos de fricción presentes, el modelo pierde utilidad práctica. Modelar sistemas mecánicos va más allá de resolver ecuaciones; requiere identificar correctamente las variables de entrada y salida, así como las fuerzas y fricciones que afectan al sistema. Sin este análisis previo, cualquier representación matemática carecerá de valor para predecir el comportamiento real del sistema.
+
+## 11. Referencias
+Universidad Nacional Autónoma de México. (2018). Modelado de sistemas mecánicos. Facultad de Estudios Superiores Cuautitlán. Recuperado el 3 de mayo de 2025, de https://masam.cuautitlan.unam.mx/dycme/dsf/modelo-mecanicos
+
+Ogata, Katsuhiko (1987) : Dinámica de Sistemas, Traducido de la primera edición en inglés de la obra System Dynamics, Prentice Hall Hispanoamericana, S.A., México.
+
+Jorge Eduardo Cote Ballesteros. (2024). Sistemas mecánicos I. ETITC
