@@ -87,7 +87,7 @@ $$W=F_X$$
 
 Y su unidad de medida son los Newton*metro (Nm).
 
-$$Trabajo total realizado: \(\int_{0}^{x} k_x \,dx\) = \frac{1}{2} kx^2$$
+$$Trabajo\ total\realizado: \(\int_{0}^{x} k_x \,dx\) = \frac{1}{2} kx^2$$
 
 ## 4. Conclusiones
 pendiente
