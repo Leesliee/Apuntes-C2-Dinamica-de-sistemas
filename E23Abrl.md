@@ -24,7 +24,7 @@ Figura 1: Amplificador operacional
 
 ### 💡 Ejemplo 1:
 
-![Figura 3](Imagenes/OP1png)
+![Figura 3](Imagenes/OP2png)
 
 Figura 2: Ejemplo 1
 
@@ -39,7 +39,7 @@ Reemplazando:
 $$e_o = e_i(\frac{1}{R_2}+\frac{1}{R_1})R_2
 
 ### 💡 Ejemplo 2:
-![Figura 3](Imagenes/OP1png)
+![Figura 3](Imagenes/OP3png)
 
 Figura 4: Ejemplo 2
 
