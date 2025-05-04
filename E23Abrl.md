@@ -18,13 +18,13 @@ La impedancia de entrada es rande para que el amplificador reciba una señal y t
 
 El análisis de este modelo es mejor hacerlo por nodos.
 
-![Figura 3](Imagenesf/OP1png)
+![Figura 3](Imagenesf/OP1.png)
 
 Figura 1: Amplificador operacional
 
 ### 💡 Ejemplo 1:
 
-![Figura 3](Imagenesf/OP2png)
+![Figura 3](Imagenesf/OP2.png)
 
 Figura 2: Ejemplo 1
 
@@ -39,7 +39,7 @@ Reemplazando:
 $$e_o = e_i(\frac{1}{R_2}+\frac{1}{R_1})R_2
 
 ### 💡 Ejemplo 2:
-![Figura 3](Imagenesf/OP3png)
+![Figura 3](Imagenesf/OP3.png)
 
 Figura 4: Ejemplo 2
 
