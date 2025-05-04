@@ -47,7 +47,7 @@ $$I= C\frac{dV(t)}{dt}$$
 
 $$V= L\frac{di(t)}{dt}$$
 
-#### 💡Ejemplo:
+#### 💡Ejemplo 1:
 
 ![image](https://github.com/user-attachments/assets/c25c2e1c-5cd9-41b0-a014-92bb979aec6c)
 
@@ -64,6 +64,31 @@ $$V_i (t) + i(t)R + L\frac{di(t)}{dt} + V_C = 0$$
 Una vez teniendo esto nos podemos dar cuenta que para que nos quede todo el factor es de voltaje del condensador reemplazaremos en la derivada de $i(t)$ por lo que vale $I$, teniendo la siguiente ecuación, que es la que modela el sistema:
 
 $$-U(t)+RC\frac{\mathrm{d}V_{C}(t)}{\mathrm{d} t}+LC\frac{\mathrm{d^2}V_{C}(t)}{\mathrm{d}t^2}+V_{C}=0$$
+
+### 💡Ejemplo 2:
+Se desarrolla este ejemplo mediante nodos, tomando como referencia el nodo a:
+
+![Figura 3](Imagenesf/ejemplo2.png)
+
+Figura 3: Ejemplo 2
+
+$$\sum I = 0$$
+
+$$i_{u(t)} = i_1$$
+
+$$i_{u(t)}+i_2+i_3=0$$
+
+$$i_2 = \frac{a}{R2}$$
+
+$$i_3 = C\dot{y}$$
+
+$$a = R_1*i_3 + y(t)$$
+
+Reemplazando:
+
+$$i_{u(t)} - R_1*i_3 + y(t) -C\dot{y}=0$$
+
+$$i_{u(t)} - 1*i_3 + y(t) -2\dot{y}=0$$
 
 ## 3. Conclusiones
 ## 4. Referencias
