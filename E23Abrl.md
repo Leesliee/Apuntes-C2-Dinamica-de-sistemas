@@ -18,13 +18,13 @@ La impedancia de entrada es rande para que el amplificador reciba una señal y t
 
 El análisis de este modelo es mejor hacerlo por nodos.
 
-![Figura 3](Imagenes/OP1png)
+![Figura 3](Imagenesf/OP1png)
 
 Figura 1: Amplificador operacional
 
 ### 💡 Ejemplo 1:
 
-![Figura 3](Imagenes/OP2png)
+![Figura 3](Imagenesf/OP2png)
 
 Figura 2: Ejemplo 1
 
@@ -39,7 +39,7 @@ Reemplazando:
 $$e_o = e_i(\frac{1}{R_2}+\frac{1}{R_1})R_2
 
 ### 💡 Ejemplo 2:
-![Figura 3](Imagenes/OP3png)
+![Figura 3](Imagenesf/OP3png)
 
 Figura 4: Ejemplo 2
 
@@ -58,10 +58,27 @@ $$\frac{e}{R_1}+\frac{e_o}{R_2}+C(\dot{e_o})=0$$
 ## 3. Sistemas hidráulicos
 >🔑 Un sistema hidráulico es un conjunto de componentes que utiliza un fluido, generalmente aceite o agua, para transmitir energía y generar movimiento o fuerza. Funciona mediante la presión del fluido dentro de tuberías, cilindros o bombas, y es común en maquinaria industrial, frenos y sistemas de control.
 
-En este caso, se analizarán en tanques:
+En este caso, se analizarán en tanques, las ecuaciones  que modelan las variaciones en el flujo y caudal se ven a continuación:
 
+Flujo de salida del tanque:
 
+$$q_1 = \frac\{H_1}{R_1}$$
 
+Intercambio de masa:
+
+$$A_1\dot{h}=q_i-q_1$$
+
+Donde:
+
+$$h=Altura$$
+
+$$A= Área$$
+
+$$q_i=Flujo de entrada de caudal$$
+
+$$q_1=Flujo de salida de caudal$$
+
+$$R=Resistencia al flujo$$
 
 ## 4. Conclusiones
 Para modelar correctamente un sistema con amplificadores operacionales no inversores, es fundamental comprender sus propiedades eléctricas como la impedancia de entrada y salida, y el comportamiento ideal del amplificador. Estas características determinan la forma en que la señal se amplifica y cómo responde el sistema ante diferentes entradas.
