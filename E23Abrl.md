@@ -56,20 +56,18 @@ $$\frac{e}{R_1}+\frac{e_o}{R_2}-C(-\dot{e_o})=0$$
 $$\frac{e}{R_1}+\frac{e_o}{R_2}+C(\dot{e_o})=0$$
 
 ## 3. Sistemas hidráulicos
->🔑 Un circuito RLC es un circuito eléctrico que está formado por resistencias inductancias y capacitancias estas a su vez están conectadas en serie o en paralelo también pueden ser circuitos mixtos son fundamentales para los sistemas de control filtrado de señales y otros circuitos electrónicos. Para la resolución de estos ejercicios es posible usar nodos, mallas, y demás teoremas de resolución de circuitos eléctricos.
->
-![Figura 1](Imagenesf/rlc.png)
+>🔑 Un sistema hidráulico es un conjunto de componentes que utiliza un fluido, generalmente aceite o agua, para transmitir energía y generar movimiento o fuerza. Funciona mediante la presión del fluido dentro de tuberías, cilindros o bombas, y es común en maquinaria industrial, frenos y sistemas de control.
 
-Figura 1: Circuito RLC
+En este caso, se analizarán en tanques:
 
-Las redes RLC son circuitos eléctricos compuestos por tres elementos básicos, estos circuitos se rigen bajo la ley de ohm:
 
 
 
 ## 4. Conclusiones
-Las leyes de Kirchhoff son fundamentales en el modelamiento de sistemas eléctricos, ya que permiten establecer relaciones entre corrientes y tensiones dentro de un circuito, lo cual es esencial para comprender su comportamiento dinámico. Aplicarlas correctamente facilita el desarrollo de modelos matemáticos que describen cómo evoluciona un sistema a lo largo del tiempo.
+Para modelar correctamente un sistema con amplificadores operacionales no inversores, es fundamental comprender sus propiedades eléctricas como la impedancia de entrada y salida, y el comportamiento ideal del amplificador. Estas características determinan la forma en que la señal se amplifica y cómo responde el sistema ante diferentes entradas.
 
-Además, es crucial identificar adecuadamente las variables de entrada y salida del sistema para que el modelo represente fielmente su respuesta ante distintos estímulos. Esto se vuelve especialmente relevante en circuitos como los RLC y RC, donde la carga y la corriente varían en el tiempo debido a la presencia de elementos almacenadores de energía, como capacitores e inductores. Estos cambios influyen directamente en la estabilidad y el rendimiento del sistema eléctrico.
+En cuanto a los sistemas hidráulicos, es esencial tener en cuenta factores físicos como la rugosidad de las tuberías, ya que esta genera una resistencia al flujo que afecta directamente al caudal del sistema. Además, para facilitar el análisis y asegurar un comportamiento predecible, se debe asumir que el flujo es laminar, condición bajo la cual las ecuaciones de modelado hidráulico son más estables y aplicables.
+
 ## 5. Referencias
 Jorge Eduardo Cote Ballesteros. (2024). Sistemas eléctricos, dinámica de sistemas. ETITC
 
