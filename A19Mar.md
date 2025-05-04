@@ -64,7 +64,7 @@ $$\frac{(s^2)(s^2 -4s + 8)*(5s+10)}{s^2(s^2-4s+8)} =(s^2)(s^2 -4s + 8) (\frac{A}
 
 $$5s+10 = (s)(s^2 -4s + 8)A + (s^2 -4s + 8)B +s^2(Cs)+s^2D$$
 
-aquiAl evaluar s = 0:
+Al evaluar s = 0:
 
 $$5(0)+10= (0)((0)^2-4(0)+8)A + ((0)^2-4(0)+8)B+(0)^2(Cs)+(0)^2D$$
 $$ 10 = (0)A + (8)B +(0)(Cs+D) $$
@@ -96,7 +96,7 @@ $$ D = \frac{15}{4} $$
 
 Al ser la ecuación una igualdad, y abiendo los valores de B, C y D; al evaluar s en cualquier número donde el numerador que resta por hallar no de 0 será posible determinar el valor del numerado nombrado, en este caso A. Se evalúa s=1:
 
-$$5(1)+10= (1)((1)^2-4(1)+8)A + ((1)^2-4(1)+8)\frac{5}{4}+((1)^2)^3-\frac{5}{4}+((1)^2)^2\frac^15}{4}$$
+$$5(1)+10= (1)((1)^2-4(1)+8)A + ((1)^2-4(1)+8)\frac{5}{4}+((1)^2)^3-\frac{5}{4}+((1)^2)^2\frac{15}{4}$$
 $$ 15 = (5)A +\frac{25}{4}+\frac{5}{2} $$
 $$ A =  \frac{\frac{25}{4}}{5} $$
 $$ A = \frac{5}{4} $$
