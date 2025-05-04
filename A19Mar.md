@@ -94,16 +94,17 @@ $$ 8D = 10+20 $$
 $$ D = \frac{30}{8} $$
 $$ D = \frac{15}{4} $$
 
-aquiSabiendo los valores de B, C y D; al evaluar s=1:
+Al ser la ecuación una igualdad, y abiendo los valores de B, C y D; al evaluar s en cualquier número donde el numerador que resta por hallar no de 0 será posible determinar el valor del numerado nombrado, en este caso A. Se evalúa s=1:
 
-$$(1)^2 + 2(1) + 8= (1)((1)^2+4)A + ((1)^2+4)(2) +((1)^2)(-1/2-1)$$
-$$ 11 = (5)A + 10 -\frac{3}{2} $$
-$$ A =  \frac{11-10+\frac{3}{2}}{5} $$
-$$ A = \frac{1}{2} $$
+$$5(1)+10= (1)((1)^2-4(1)+8)A + ((1)^2-4(1)+8)\frac{5}{4}+((1)^2)^3-\frac{5}{4}+((1)^2)^2\frac^15}{4}$$$$
+$$ 15 = (5)A +\frac{25}{4}+\frac{5}{2} $$
+$$ A =  \frac{\frac{25}{4}}{5} $$
+$$ A = \frac{5}{4} $$
 
 Se reemplaza:
+$$F(s) = \frac{\frac{5}{4}}{s}+\frac{\frac{5}{4}}{s^2}+\frac{-\frac{5}{4}s+\frac{15}{4}}{s^2-4s+8}$$
 
-$$F(s) =\frac{1/2}{(s)}+\frac{2}{(s^2)}+\frac{-1/2s-1}{(s^2+4)^2}$$
+Aplicando transformada inversa: 
 
 $$\mathcal{L}^{-1} \{ F(s) \} = \mathcal{L}^{-1} \left( \frac{1/2}{(s)} \right) + \mathcal{L}^{-1} \left( frac{2}{(s^2)} \right) + \mathcal{L}^{-1} \left( \frac{-1/2s-1}{(s^2+4)} \right)$$
 
