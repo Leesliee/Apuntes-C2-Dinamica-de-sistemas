@@ -106,15 +106,11 @@ $$F(s) = \frac{\frac{5}{4}}{s}+\frac{\frac{5}{4}}{s^2}+\frac{-\frac{5}{4}s+\frac
 
 Aplicando transformada inversa: 
 
-$$\mathcal{L}^{-1} \{ F(s) \} = \mathcal{L}^{-1} \left( \frac{1/2}{(s)} \right) + \mathcal{L}^{-1} \left( frac{2}{(s^2)} \right) + \mathcal{L}^{-1} \left( \frac{-1/2s-1}{(s^2+4)} \right)$$
+$$\mathcal{L}^{-1} \{ F(s) \} = \mathcal{L}^{-1} \left( \frac{\frac{5}{4}}{s}+\frac{\frac{5}{4}}{s^2}+\frac{-\frac{5}{4}s+\frac{15}{4}}{s^2-4s+8} \right)$$
 
-$$\mathcal{L}^{-1} \{ F(s) \} = \frac{1}{2}\mathcal{L}^{-1} \left( \frac{1}{(s)} \right) + 2*\mathcal{L}^{-1} \left( \frac{1}{(s^2)} \right) - \frac{1}{2}\mathcal{L}^{-1} \left( \frac{s}{(s^2+4)^2} \right)-\mathcal{L}^{-1} \left( \frac{1}{(s^2+4)} \right)$$
+Después de aplicar las propiedades y completar cuadrados el resultado en el dominio del tiempo es:
 
-$$\mathcal{L}^{-1} \{ F(s) \} = 1 + 2t -\frac{1}{2}*cos(2t)-\frac{1}{2}*sen(2t)$$
-
-Y por último se encuentra la solución en el dominio del tiempo: 
-
-$$f(t) =  1 + 2t -\frac{1}{2}*cos(2t)-\frac{1}{2}*sen(2t)$$
+$$f(t) =  \frac{5}{4} + \frac{5}{4}t -\frac{5}{4}*cos(2t)+\frac{5}{8}*e^{2t}*sen(2t)$$
 ## 2. Retroalimentación: Tema 2
 ### 📚 Ejercicio 1:
 $$2\ddot{x} + 2\dot{x} + x = 1\$$  
