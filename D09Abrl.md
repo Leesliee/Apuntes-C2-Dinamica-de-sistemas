@@ -86,9 +86,9 @@ $$a = R_1*i_3 + y(t)$$
 
 Reemplazando:
 
-$$i_{u(t)} - R_1*i_3 + y(t) -C\dot{y}=0$$
+$$i_{u(t)} - \frac{R_1*i_3 + y(t)}{R_2} -C\dot{y}=0$$
 
-$$i_{u(t)} - 1*i_3 + y(t) -2\dot{y}=0$$
+$$i_{u(t)} - \frac{1*i_3 + y(t)}{0.5} -2\dot{y}=0$$
 
 ## 3. Conclusiones
 ## 4. Referencias
