@@ -24,7 +24,7 @@ Los sistemas eléctricos cuentan con dispositivos de control automático para aj
 
 ### 2.5 Dinámica de Generación y Demanda:
 Evalúa cómo el sistema reacciona ante cambios en la generación de energía.
-## 3. Ciruitor RLC
+## 3. Ciruito RLC
 >🔑 Un circuito RLC es un circuito eléctrico que está formado por resistencias inductancias y capacitancias estas a su vez están conectadas en serie o en paralelo también pueden ser circuitos mixtos son fundamentales para los sistemas de control filtrado de señales y otros circuitos electrónicos. Para la resolución de estos ejercicios es posible usar nodos, mallas, y demás teoremas de resolución de circuitos eléctricos.
 >
 ![Figura 1](Imagenesf/rlc.png)
@@ -90,5 +90,15 @@ $$i_{u(t)} - \frac{R_1*i_3 + y(t)}{R_2} -C\dot{y}=0$$
 
 $$i_{u(t)} - \frac{1*i_3 + y(t)}{0.5} -2\dot{y}=0$$
 
-## 3. Conclusiones
-## 4. Referencias
+## 4. Conclusiones
+Las leyes de Kirchhoff son fundamentales en el modelamiento de sistemas eléctricos, ya que permiten establecer relaciones entre corrientes y tensiones dentro de un circuito, lo cual es esencial para comprender su comportamiento dinámico. Aplicarlas correctamente facilita el desarrollo de modelos matemáticos que describen cómo evoluciona un sistema a lo largo del tiempo.
+
+Además, es crucial identificar adecuadamente las variables de entrada y salida del sistema para que el modelo represente fielmente su respuesta ante distintos estímulos. Esto se vuelve especialmente relevante en circuitos como los RLC y RC, donde la carga y la corriente varían en el tiempo debido a la presencia de elementos almacenadores de energía, como capacitores e inductores. Estos cambios influyen directamente en la estabilidad y el rendimiento del sistema eléctrico.
+## 5. Referencias
+Jorge Eduardo Cote Ballesteros. (2024). Sistemas eléctricos, dinámica de sistemas. ETITC
+
+Ogata, Katsuhiko (1987) : Dinámica de Sistemas, Traducido de la primera edición en inglés de la obra System Dynamics, Prentice Hall Hispanoamericana, S.A., México.
+
+Aprendizaje (UAPA) titulada Modelado de sistemas eléctricos y funciones de transferencia, desarrollada por el Sistema de Universidad Abierta y Educación a Distancia (SUAyED) de la Facultad de Estudios Superiores Cuautitlán de la UNAM:
+suayed.cuautitlan.unam.mx
+SUAyED FES Cuautitlán. (s.f.). Modelado de sistemas eléctricos y funciones de transferencia. Universidad Nacional Autónoma de México. Recuperado el 3 de mayo de 2025, de https://suayed.cuautitlan.unam.mx/uapas/2/
